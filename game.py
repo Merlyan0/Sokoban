@@ -33,8 +33,10 @@ class Game:
         self.player = Player(self.players, 1, 1)  # игрок
         self.map = Map('assets/maps', 'level1.txt', 'green')  # карта уровня
 
-        # шрифт
-        self.font = pygame.font.SysFont('Times New Roman', 36)
+        # шрифты
+        self.font = pygame.font.Font('assets/fonts/main.ttf', 27)
+        self.font_level = pygame.font.Font('assets/fonts/main.ttf', 36)
+        self.font_subtitle = pygame.font.SysFont('Times new Roman', 36)
 
         # переменные цикла
         self.loop = True
@@ -92,9 +94,9 @@ class Game:
                                   f'/ {len(self.map.install_locations_list)}', False, '#808080')
 
         # отрисовка
-        self.__screen.blit(level, (10, 15))
-        self.__screen.blit(moves, (265, 15))
-        self.__screen.blit(crates, (535, 15))
+        self.__screen.blit(level, (10, 24))
+        self.__screen.blit(moves, (280, 24))
+        self.__screen.blit(crates, (560, 24))
         self.__screen.blit(back_small, (1330, -3))
         self.__screen.blit(restart, (1170, -3))
 
@@ -183,7 +185,7 @@ class Game:
             next_b = self.font.render(f'NEXT', False, '#808080')
 
             # отрисовка 2
-            self.__screen.blit(level, (550, 250))
+            self.__screen.blit(level, (565, 250))
             self.__screen.blit(moves, (500, 350))
             self.__screen.blit(moves2, (500, 410))
             self.__screen.blit(crates, (500, 470))
