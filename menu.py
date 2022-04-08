@@ -46,15 +46,16 @@ class Menu:
         """
         Рендер текста правил игры.
         """
-        self.rule1 = self.game.font.render(f'Игроку необходимо расставить ящики по обозначенным местам лабиринта ',
-                                           False, '#808080')
-        self.rule2 = self.game.font.render(f'(обратите внимание: для ящиков разных цветов - разные места!).', False,
-                                           '#808080')
-        self.rule3 = self.game.font.render(f'Кладовщик одновременно может двигать только один ящик, толкая вперёд.',
-                                           False,
-                                           '#808080')
-        self.rule4 = self.game.font.render(f'Нельзя перемещать ящики сквозь стены.', False,
-                                           '#808080')
+        self.rule1 = self.game.font_subtitle.render(f'Игроку необходимо расставить ящики '
+                                                    f'по обозначенным местам лабиринта ', False, '#808080')
+
+        self.rule2 = self.game.font_subtitle.render(f'(обратите внимание: для ящиков '
+                                                    f'разных цветов - разные места!).', False, '#808080')
+
+        self.rule3 = self.game.font_subtitle.render(f'Кладовщик одновременно может двигать '
+                                                    f'только один ящик, толкая вперёд.', False, '#808080')
+
+        self.rule4 = self.game.font_subtitle.render(f'Нельзя перемещать ящики сквозь стены.', False, '#808080')
 
     def run_menu_main(self) -> None:
         """
@@ -109,16 +110,16 @@ class Menu:
             self.__screen.fill('white')
 
             objects = [(help_t, (380, -30)),
-                       (self.rule1, (30, 200)),
-                       (self.rule2, (30, 280)),
-                       (self.rule3, (30, 360)),
-                       (self.rule4, (30, 440)),
+                       (self.rule1, (30, 240)),
+                       (self.rule2, (30, 320)),
+                       (self.rule3, (30, 400)),
+                       (self.rule4, (30, 480)),
                        (back, (400, 700))]
 
             self.__screen.blit(background, (0, 0))
 
-            pygame.draw.rect(self.__screen, '#cab19b', (10, 180, 1400, 400))
-            pygame.draw.rect(self.__screen, 'gray', (10, 180, 1400, 400), 15)
+            pygame.draw.rect(self.__screen, '#cab19b', (10, 200, 1400, 400))
+            pygame.draw.rect(self.__screen, 'gray', (10, 200, 1400, 400), 15)
 
             for i in objects:
                 self.__screen.blit(i[0], (i[1][0], i[1][1]))
@@ -135,21 +136,40 @@ class Menu:
             # получение результатов из базы данных и рендер текста
             a = get_scores(create_connection()[1])
             self.__screen.fill('white')
-            lvl1 = self.game.font.render(f'Уровень 1: {a[0]} ходов сделано',
-                                         False, '#808080')
-            lvl2 = self.game.font.render(f'Уровень 2: {a[1]} ходов сделано', False,
-                                         '#808080')
-            lvl3 = self.game.font.render(f'Уровень 3: {a[2]} ходов сделано',
-                                         False,
-                                         '#808080')
-            lvl4 = self.game.font.render(f'Уровень 4: {a[3]} ходов сделано', False,
-                                         '#808080')
+
+            lvl1 = self.game.font_level.render(f'Уровень 1:', False, '#808080')
+            if a[0] == 0:
+                lvl1_2 = self.game.font_subtitle.render(f'ещё не пройден', False, '#808080')
+            else:
+                lvl1_2 = self.game.font_subtitle.render(f'{a[0]} ходов сделано', False, '#808080')
+
+            lvl2 = self.game.font_level.render(f'Уровень 2:', False, '#808080')
+            if a[1] == 0:
+                lvl2_2 = self.game.font_subtitle.render(f'ещё не пройден', False, '#808080')
+            else:
+                lvl2_2 = self.game.font_subtitle.render(f'{a[1]} ходов сделано', False, '#808080')
+
+            lvl3 = self.game.font_level.render(f'Уровень 3:', False, '#808080')
+            if a[2] == 0:
+                lvl3_2 = self.game.font_subtitle.render(f'ещё не пройден', False, '#808080')
+            else:
+                lvl3_2 = self.game.font_subtitle.render(f'{a[2]} ходов сделано', False, '#808080')
+
+            lvl4 = self.game.font_level.render(f'Уровень 4:', False, '#808080')
+            if a[3] == 0:
+                lvl4_2 = self.game.font_subtitle.render(f'ещё не пройден', False, '#808080')
+            else:
+                lvl4_2 = self.game.font_subtitle.render(f'{a[3]} ходов сделано', False, '#808080')
 
             objects = [(score, (380, -30)),
-                       (lvl1, (30, 200)),
-                       (lvl2, (30, 280)),
-                       (lvl3, (30, 360)),
-                       (lvl4, (30, 440)),
+                       (lvl1, (30, 230)),
+                       (lvl1_2, (300, 223)),
+                       (lvl2, (30, 310)),
+                       (lvl2_2, (300, 303)),
+                       (lvl3, (30, 390)),
+                       (lvl3_2, (300, 383)),
+                       (lvl4, (30, 470)),
+                       (lvl4_2, (300, 463)),
                        (back, (400, 700))]
 
             self.__screen.blit(background, (0, 0))
