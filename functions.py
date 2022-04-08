@@ -47,6 +47,11 @@ def load_map(path: str, name: str) -> list:
     return level_map
 
 
+"""
+РАБОТА С БД ↓
+"""
+
+
 def create_connection() -> tuple:
     """
     Возвращает соединение к базе данных и курсор.
