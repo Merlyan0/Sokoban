@@ -16,6 +16,8 @@ class GameObject(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
 
         self.type = object_type  # тип объекта (земля, стена...)
+        if color.startswith('d_'):
+            color = color.lstrip('d_')
         self.color = color  # цвет объекта
         self.set_pos((x, y))  # задание позиции объекту
 
