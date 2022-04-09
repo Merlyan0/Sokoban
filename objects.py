@@ -1,9 +1,16 @@
+import os
+import sys
+
 from functions import load_image
 
 
 """
 LOADING
 """
+# нахождение файлов, распакованных во временную папку (для .exe)
+if getattr(sys, 'frozen', False):
+    os.chdir(sys._MEIPASS)
+
 # игрок
 up = load_image("assets/sprites/player", "up.png")
 down = load_image("assets/sprites/player", "down.png")
