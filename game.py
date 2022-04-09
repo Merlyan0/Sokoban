@@ -1,3 +1,6 @@
+# импорт дополнительных объектов
+from objects import back_small, restart, background2
+
 # импорт дополнительных функций
 from functions import *
 
@@ -5,9 +8,6 @@ from functions import *
 from menu import Menu
 from player import Player
 from map import Map
-
-# импорт дополнительных объектов
-from objects import back_small, restart, background2
 
 
 class Game:
@@ -107,8 +107,7 @@ class Game:
         for event in pygame.event.get():
             # выход
             if event.type == pygame.QUIT:
-                pygame.quit()
-                exit()
+                sys.exit()
 
             # нажатие на клавишу клавиатуры
             if event.type == pygame.KEYDOWN:
@@ -202,8 +201,7 @@ class Game:
         for event in pygame.event.get():
             # выход
             if event.type == pygame.QUIT:
-                pygame.quit()
-                exit()
+                sys.exit()
 
             # нажатие мышью
             if event.type == pygame.MOUSEBUTTONDOWN:
