@@ -1,3 +1,4 @@
+import sys
 from os import path
 import pygame
 
@@ -188,8 +189,7 @@ class Menu:
         """
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                exit()
+                sys.exit()
 
             if event.type == pygame.MOUSEBUTTONDOWN:
                 # кнопка play
@@ -219,8 +219,7 @@ class Menu:
                 # кнопка exit
                 elif 419 <= event.pos[0] <= 1035 and 777 <= event.pos[1] <= 985:
                     self.selected_sound.play()
-                    pygame.quit()
-                    exit()
+                    sys.exit()
 
     def check_events_levels(self) -> None:
         """
@@ -228,8 +227,7 @@ class Menu:
         """
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                exit()
+                sys.exit()
 
             if event.type == pygame.MOUSEBUTTONDOWN:
                 # кнопка 1
@@ -259,8 +257,7 @@ class Menu:
         """
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                exit()
+                sys.exit()
 
             if event.type == pygame.MOUSEBUTTONDOWN:
                 # кнопка back
@@ -278,8 +275,7 @@ class Menu:
         """
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                exit()
+                sys.exit()
 
             if event.type == pygame.MOUSEBUTTONDOWN:
                 # кнопка back
