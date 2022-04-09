@@ -2,6 +2,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/made%20by-merlyan0-blue.svg" >
 <img src="https://img.shields.io/github/last-commit/Merlyan0/Sokoban" >
+<img src="https://img.shields.io/github/v/release/Merlyan0/Sokoban" >
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 <img src="https://img.shields.io/github/languages/top/Merlyan0/Sokoban" >
 </p>
