@@ -1,5 +1,5 @@
 # импорт дополнительных объектов
-from objects import back_small, restart, background2
+from objects import back_small, restart, background2, crate_gray
 
 # импорт дополнительных функций
 from functions import *
@@ -48,6 +48,9 @@ class Game:
 
         # создание базы данных
         create_connection()
+
+        # иконка
+        pygame.display.set_icon(crate_gray)
 
     def run(self) -> None:
         """
