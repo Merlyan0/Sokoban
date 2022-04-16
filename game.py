@@ -238,8 +238,8 @@ class Game:
         self.player.set_moves(0)
         self.player.set_pos(player_pos[0], player_pos[1])
 
-    @staticmethod
-    def play_music() -> None:
+    @classmethod
+    def play_music(cls) -> None:
         """
         Запустить проигрывание музыки.
         """
