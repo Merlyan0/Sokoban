@@ -301,8 +301,8 @@ class Menu:
         self.loop_help = False
         self.game.run()
 
-    @staticmethod
-    def play_music() -> None:
+    @classmethod
+    def play_music(cls) -> None:
         """
         Запустить проигрывание музыки.
         """
