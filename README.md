@@ -96,5 +96,5 @@
 Главный саундтрек: [OpenGameArt - Puzzle Game 3](https://opengameart.org/content/puzzle-game-3/) <br>
 Музыка в меню: [OpenGameArt - KB - Game Intro Menu Music](https://opengameart.org/content/kb-game-intro-menu-music/) <br>
 Звук помещения ящика на специальное место: [OpenGameArt - Completion sound](https://opengameart.org/content/completion-sound/) <br>
-Звук завершения текуего уровня: [OpenGameArt - Victory!](https://opengameart.org/content/victory-2/) <br>
+Звук завершения текущего уровня: [OpenGameArt - Victory!](https://opengameart.org/content/victory-2/) <br>
 Звук нажатия на кнопку: [OpenGameArt - 8bit Menu Select](https://opengameart.org/content/8bit-menu-select/) <br>
