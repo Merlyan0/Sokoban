@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/github/languages/top/Merlyan0/Sokoban" >
 </p>
 
-![Логотип игры](https://github.com/Merlyan0/Sokoban/blob/579092766dc8aae3314a25cdefa2d44bed664d66/assets/sprites/titles/title.png)
+![Логотип игры](http://merlyan.ru.xsph.ru/assets/sprites/titles/title.png)
 ## Описание
 Проект реализован на языке программирования Python, использована библиотека PyGame. Содержит 4 базовых уровня, проходить которые можно в любом порядке. Использована современная красочная графика: 10 видов ящиков, 5 видов мест для установки ящиков, 4 вида стен, 3 вида блока земли. Ведется подсчет сделанных ходов и после завершения уровня этот результат записывается в базу данных.
 
@@ -50,40 +50,40 @@
 ## Графика
 #### Ящики
 <p align="center">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate1.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate2.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate3.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate4.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate5.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate6.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate7.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate8.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate9.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/crates/crate10.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate1.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate2.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate3.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate4.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate5.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate6.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate7.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate8.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate9.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/crates/crate10.png">
 </p>
 
 #### Земля
 <p align="center">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/ground/ground1.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/ground/ground2.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/ground/ground3.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/ground/ground1.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/ground/ground2.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/ground/ground3.png">
 </p>
 
 #### Стены
 <p align="center">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/blocks/block1.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/blocks/block2.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/blocks/block3.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/blocks/block4.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/blocks/block1.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/blocks/block2.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/blocks/block3.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/blocks/block4.png">
 </p>
 
 #### Места для установки ящиков
 <p align="center">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/install_locations/install1.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/install_locations/install2.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/install_locations/install3.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/install_locations/install4.png">
-<img src="https://github.com/Merlyan0/Sokoban/blob/9827b50bb2638d929ccaf932174a68a3c4d3f0e3/assets/sprites/objects/install_locations/install5.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/install_locations/install1.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/install_locations/install2.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/install_locations/install3.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/install_locations/install4.png">
+<img src="http://merlyan.ru.xsph.ru/assets/sprites/objects/install_locations/install5.png">
 </p>
 
 ## Источники
