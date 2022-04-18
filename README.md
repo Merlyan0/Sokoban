@@ -88,13 +88,13 @@
 
 ## Источники
 ### Графика
-Основа: [Kenney - Sokoban](https://www.kenney.nl/assets/sokoban/) </br>
-Фон 1: [krot.info - 13 фон](https://krot.info/fony/33126-pikselnyj-fon-37-foto.html) </br>
-Фон 2: [OpenGameArt - UI FOR 2D GAME](https://opengameart.org/content/ui-for-2d-game/) </br>
-Кнопки: [itch.io - Joseth](https://joseth-sc.itch.io/gui-design-for-games/) </br>
+Основа: [Kenney - Sokoban](https://www.kenney.nl/assets/sokoban/) <br>
+Фон 1: [krot.info - 13 фон](https://krot.info/fony/33126-pikselnyj-fon-37-foto.html) <br>
+Фон 2: [OpenGameArt - UI FOR 2D GAME](https://opengameart.org/content/ui-for-2d-game/) <br>
+Кнопки: [itch.io - Joseth](https://joseth-sc.itch.io/gui-design-for-games/) <br>
 ### Музыка и звуки
-Главный саундтрек: [OpenGameArt - Puzzle Game 3](https://opengameart.org/content/puzzle-game-3/) </br>
-Музыка в меню: [OpenGameArt - KB - Game Intro Menu Music](https://opengameart.org/content/kb-game-intro-menu-music/) </br>
-Звук помещения ящика на специальное место: [OpenGameArt - Completion sound](https://opengameart.org/content/completion-sound/) </br>
-Звук завершения текуего уровня: [OpenGameArt - Victory!](https://opengameart.org/content/victory-2/) </br>
-Звук нажатия на кнопку: [OpenGameArt - 8bit Menu Select](https://opengameart.org/content/8bit-menu-select/) </br>
+Главный саундтрек: [OpenGameArt - Puzzle Game 3](https://opengameart.org/content/puzzle-game-3/) <br>
+Музыка в меню: [OpenGameArt - KB - Game Intro Menu Music](https://opengameart.org/content/kb-game-intro-menu-music/) <br>
+Звук помещения ящика на специальное место: [OpenGameArt - Completion sound](https://opengameart.org/content/completion-sound/) <br>
+Звук завершения текуего уровня: [OpenGameArt - Victory!](https://opengameart.org/content/victory-2/) <br>
+Звук нажатия на кнопку: [OpenGameArt - 8bit Menu Select](https://opengameart.org/content/8bit-menu-select/) <br>
